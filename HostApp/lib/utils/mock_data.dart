@@ -1,4 +1,4 @@
-import 'mini_app.dart';
+import '../models/mini_app.dart';
 
 class MockData {
   static final List<MiniApp> installedApps = [

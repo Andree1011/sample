@@ -16,7 +16,7 @@ window.MiniAppBridge = window.MiniAppBridge || {
    */
   callNative: function(method, params) {
     return new Promise((resolve, reject) => {
-      const messageId = 'msg_' + Math.random().toString(36).substr(2, 9);
+      const messageId = 'msg_' + Math.random().toString(36).substring(2, 11);
       
       this._callbacks[messageId] = { resolve, reject };
 
