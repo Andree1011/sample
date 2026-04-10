@@ -1,0 +1,23 @@
+# Ignore iOS build files
+*.xcodeproj/
+*.xcworkspace/
+*.xcuserdatad/
+*.hmap
+
+# Build generated files
+build/
+
+# User-specific files
+*.swp
+*.lock
+
+# Derived data
+DerivedData/
+
+# Receipts
+*.ipa
+*.dSYM
+
+# Archived build products
+*.app
+*.a
