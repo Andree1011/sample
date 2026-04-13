@@ -1,0 +1,12 @@
+{
+  "id": "health",
+  "name": "Health",
+  "version": "2.1.0",
+  "description": "Track fitness, health metrics, and connect IoT devices",
+  "author": "SuperApp Demo",
+  "entry": "index.html",
+  "permissions": ["biometric", "camera", "location", "notification", "iot"],
+  "minSdkVersion": "1.0.0",
+  "category": "Health & Fitness",
+  "icon": "assets/images/icon.png"
+}

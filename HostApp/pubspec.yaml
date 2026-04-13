@@ -1,0 +1,42 @@
+name: host_app
+description: SuperApp Host Application - Flutter container for web-based mini apps.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  webview_flutter: ^4.4.2
+  local_auth: ^2.1.7
+  shared_preferences: ^2.2.2
+  flutter_secure_storage: ^9.0.0
+  http: ^1.1.0
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  cupertino_icons: ^1.0.6
+  path_provider: ^2.1.1
+  archive: ^3.4.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/data/
+    - assets/mini_apps/shopping-bundle/
+    - assets/mini_apps/shopping-bundle/css/
+    - assets/mini_apps/shopping-bundle/js/
+    - assets/mini_apps/health-bundle/
+    - assets/mini_apps/health-bundle/css/
+    - assets/mini_apps/health-bundle/js/
+    - assets/mini_apps/chat-bundle/
+    - assets/mini_apps/chat-bundle/css/
+    - assets/mini_apps/chat-bundle/js/

@@ -1,0 +1,82 @@
+import '../models/mini_app.dart';
+
+class MockData {
+  static final List<MiniApp> installedApps = [
+    MiniApp(
+      id: 'shopping',
+      name: 'Shopping',
+      description: 'Browse and buy products',
+      iconUrl: '',
+      bundleUrl: 'https://bundles.superapp-demo.com/shopping-bundle.zip',
+      version: '1.2.0',
+      category: 'Shopping',
+      isInstalled: true,
+      rating: 4.8,
+      downloadCount: 125000,
+    ),
+    MiniApp(
+      id: 'health',
+      name: 'Health',
+      description: 'Track your fitness & health',
+      iconUrl: '',
+      bundleUrl: 'https://bundles.superapp-demo.com/health-bundle.zip',
+      version: '2.1.0',
+      category: 'Health & Fitness',
+      isInstalled: true,
+      rating: 4.6,
+      downloadCount: 89000,
+    ),
+    MiniApp(
+      id: 'chat',
+      name: 'Chat',
+      description: 'Real-time messaging',
+      iconUrl: '',
+      bundleUrl: 'https://bundles.superapp-demo.com/chat-bundle.zip',
+      version: '3.0.1',
+      category: 'Communication',
+      isInstalled: true,
+      rating: 4.9,
+      downloadCount: 230000,
+    ),
+  ];
+
+  static final List<MiniApp> marketplaceApps = [
+    ...installedApps,
+    MiniApp(
+      id: 'food',
+      name: 'Food Delivery',
+      description: 'Order food from local restaurants',
+      iconUrl: '',
+      bundleUrl: 'https://bundles.superapp-demo.com/food-bundle.zip',
+      version: '1.0.5',
+      category: 'Food & Drink',
+      isInstalled: false,
+      rating: 4.5,
+      downloadCount: 67000,
+    ),
+    MiniApp(
+      id: 'travel',
+      name: 'Travel',
+      description: 'Book flights and hotels',
+      iconUrl: '',
+      bundleUrl: 'https://bundles.superapp-demo.com/travel-bundle.zip',
+      version: '1.1.0',
+      category: 'Travel',
+      isInstalled: false,
+      rating: 4.3,
+      downloadCount: 45000,
+    ),
+    MiniApp(
+      id: 'finance',
+      name: 'Finance',
+      description: 'Manage your money & investments',
+      iconUrl: '',
+      bundleUrl: 'https://bundles.superapp-demo.com/finance-bundle.zip',
+      version: '2.0.0',
+      category: 'Finance',
+      isInstalled: false,
+      rating: 4.7,
+      downloadCount: 98000,
+    ),
+  ];
+}

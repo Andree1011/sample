@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Chat</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Chat List View -->
+    <div id="chat-list-view" style="display:flex;flex-direction:column;height:100%">
+      <!-- Header -->
+      <header class="app-header">
+        <div class="header-title">💬 Chat</div>
+        <button class="header-action" onclick="ChatApp.renderConversationList()">✏️</button>
+      </header>
+
+      <!-- Search -->
+      <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          class="search-input"
+          placeholder="Search conversations..."
+          autocomplete="off"
+        >
+      </div>
+
+      <!-- Conversation list -->
+      <div id="conversation-list" style="flex:1;overflow-y:auto">
+        <div style="text-align:center;padding:40px;color:#888">
+          <div style="font-size:40px;margin-bottom:8px">💬</div>
+          Loading conversations...
+        </div>
+      </div>
+    </div>
+
+    <!-- Chat Detail View -->
+    <div id="chat-detail-view" style="display:none;flex-direction:column;height:100%">
+      <!-- Chat header -->
+      <div class="chat-header">
+        <button class="chat-header-back" onclick="ChatApp.backToList()">←</button>
+        <div class="chat-header-info">
+          <div class="chat-header-name" id="chat-name">Chat</div>
+          <div class="chat-header-status" id="chat-status">🟢 Online</div>
+        </div>
+        <button style="background:none;border:none;color:white;font-size:20px;cursor:pointer">📞</button>
+        <button style="background:none;border:none;color:white;font-size:20px;cursor:pointer">📹</button>
+      </div>
+
+      <!-- Messages -->
+      <div class="messages-container" id="messages-container">
+        <!-- Messages rendered by JS -->
+      </div>
+
+      <!-- Typing indicator -->
+      <div class="typing-indicator" id="typing-indicator" style="margin:0 16px 4px;">
+        <div class="typing-dots">
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+          <div class="typing-dot"></div>
+        </div>
+      </div>
+
+      <!-- Message input -->
+      <div class="message-input-bar">
+        <button style="background:none;border:none;font-size:22px;cursor:pointer;padding:4px">📎</button>
+        <textarea
+          id="message-input"
+          class="message-input"
+          placeholder="Type a message..."
+          rows="1"
+          onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();ChatApp.sendMessage()}"
+          oninput="this.style.height='auto';this.style.height=Math.min(this.scrollHeight,80)+'px'"
+        ></textarea>
+        <button class="send-btn" onclick="ChatApp.sendMessage()">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bridge.js"></script>
+  <script src="js/websocket.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
