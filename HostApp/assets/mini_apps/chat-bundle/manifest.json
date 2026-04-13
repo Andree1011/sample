@@ -1,0 +1,12 @@
+{
+  "id": "chat",
+  "name": "Chat",
+  "version": "3.0.1",
+  "description": "Real-time messaging and conversations",
+  "author": "SuperApp Demo",
+  "entry": "index.html",
+  "permissions": ["notification", "microphone", "camera"],
+  "minSdkVersion": "1.0.0",
+  "category": "Communication",
+  "icon": "assets/images/icon.png"
+}

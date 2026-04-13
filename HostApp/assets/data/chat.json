@@ -1,0 +1,46 @@
+{
+  "conversations": [
+    {
+      "id": "conv_001",
+      "contact": "Sarah Chen",
+      "avatar_emoji": "👩",
+      "last_message": "Great, thanks! 🙏",
+      "last_time": "10:42 AM",
+      "unread": 0,
+      "online": true,
+      "messages": [
+        { "sender": "Sarah Chen", "text": "Hey! Are you available?", "mine": false, "time": "10:38 AM" },
+        { "sender": "Me", "text": "Yes, what's up?", "mine": true, "time": "10:39 AM" },
+        { "sender": "Sarah Chen", "text": "Can you help me with the project?", "mine": false, "time": "10:40 AM" },
+        { "sender": "Me", "text": "Sure! Let me check the files first.", "mine": true, "time": "10:41 AM" },
+        { "sender": "Sarah Chen", "text": "Great, thanks! 🙏", "mine": false, "time": "10:42 AM" }
+      ]
+    },
+    {
+      "id": "conv_002",
+      "contact": "Team SuperApp",
+      "avatar_emoji": "👥",
+      "last_message": "Sprint review is at 3pm",
+      "last_time": "9:15 AM",
+      "unread": 3,
+      "online": true,
+      "messages": [
+        { "sender": "Mike", "text": "Good morning team!", "mine": false, "time": "9:00 AM" },
+        { "sender": "Me", "text": "Morning! Ready for standup?", "mine": true, "time": "9:05 AM" },
+        { "sender": "Lisa", "text": "Sprint review is at 3pm", "mine": false, "time": "9:15 AM" }
+      ]
+    },
+    {
+      "id": "conv_003",
+      "contact": "David Kim",
+      "avatar_emoji": "👨",
+      "last_message": "Let's grab coffee ☕",
+      "last_time": "Yesterday",
+      "unread": 1,
+      "online": false,
+      "messages": [
+        { "sender": "David Kim", "text": "Let's grab coffee ☕", "mine": false, "time": "Yesterday" }
+      ]
+    }
+  ]
+}

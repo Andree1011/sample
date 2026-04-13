@@ -1,0 +1,10 @@
+{
+  "id": "user_001",
+  "name": "Alex Johnson",
+  "email": "alex@example.com",
+  "phone": "+1 555-0123",
+  "avatar_url": "",
+  "wallet_balance": 1250.00,
+  "membership": "Premium",
+  "joined_date": "2023-01-15"
+}

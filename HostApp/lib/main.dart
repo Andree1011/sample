@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'screens/login_screen.dart';
+import 'services/bundle_manager.dart';
+import 'services/native_bridge_service.dart';
 import 'utils/constants.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  Get.put(BundleManager());
+  Get.put(NativeBridgeService());
   runApp(const SuperApp());
 }
 

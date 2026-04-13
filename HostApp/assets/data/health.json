@@ -1,0 +1,36 @@
+{
+  "summary": {
+    "steps": 8234,
+    "steps_goal": 10000,
+    "calories": 412,
+    "calories_goal": 600,
+    "heart_rate": 72,
+    "sleep_hours": 7.3,
+    "sleep_goal": 8.0
+  },
+  "weekly_activity": [
+    { "day": "Mon", "steps": 6200, "calories": 320 },
+    { "day": "Tue", "steps": 8100, "calories": 410 },
+    { "day": "Wed", "steps": 5000, "calories": 280 },
+    { "day": "Thu", "steps": 9200, "calories": 480 },
+    { "day": "Fri", "steps": 7100, "calories": 370 },
+    { "day": "Sat", "steps": 4100, "calories": 220 },
+    { "day": "Sun", "steps": 8234, "calories": 412 }
+  ],
+  "devices": [
+    {
+      "id": "dev_001",
+      "name": "Fitbit Sense",
+      "type": "fitness_tracker",
+      "connected": true,
+      "battery": 78
+    },
+    {
+      "id": "dev_002",
+      "name": "Apple Watch Series 9",
+      "type": "smartwatch",
+      "connected": false,
+      "battery": 0
+    }
+  ]
+}

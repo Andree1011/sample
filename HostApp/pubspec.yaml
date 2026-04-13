@@ -17,6 +17,8 @@ dependencies:
   cached_network_image: ^3.3.0
   flutter_svg: ^2.0.9
   cupertino_icons: ^1.0.6
+  path_provider: ^2.1.1
+  archive: ^3.4.9
 
 dev_dependencies:
   flutter_test:
@@ -28,3 +30,13 @@ flutter:
   assets:
     - assets/images/
     - assets/icons/
+    - assets/data/
+    - assets/mini_apps/shopping-bundle/
+    - assets/mini_apps/shopping-bundle/css/
+    - assets/mini_apps/shopping-bundle/js/
+    - assets/mini_apps/health-bundle/
+    - assets/mini_apps/health-bundle/css/
+    - assets/mini_apps/health-bundle/js/
+    - assets/mini_apps/chat-bundle/
+    - assets/mini_apps/chat-bundle/css/
+    - assets/mini_apps/chat-bundle/js/

@@ -1,0 +1,12 @@
+{
+  "id": "shopping",
+  "name": "Shopping",
+  "version": "1.2.0",
+  "description": "Browse and buy products from our marketplace",
+  "author": "SuperApp Demo",
+  "entry": "index.html",
+  "permissions": ["payment", "notification", "location"],
+  "minSdkVersion": "1.0.0",
+  "category": "Shopping",
+  "icon": "assets/images/icon.png"
+}
