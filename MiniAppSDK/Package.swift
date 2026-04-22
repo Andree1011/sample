@@ -26,5 +26,6 @@ let package = Package(
             dependencies: ["MiniAppSDK"],
             path: "Tests"
         )
-    ]
+    ],
+    swiftLanguageVersions: [.v5]
 )
