@@ -58,4 +58,32 @@ final class NotificationServiceTests: XCTestCase {
         
         wait(for: [expectation], timeout: 3.0)
     }
+
+    func testNotificationOperationsAreSafeWhenCalledConcurrently() {
+        let concurrentOperationCount = 20
+        let expectation = XCTestExpectation(description: "Concurrent notification operations complete")
+        let group = DispatchGroup()
+        let queue = DispatchQueue(label: "notification.test.concurrent", attributes: .concurrent)
+
+        for index in 0..<concurrentOperationCount {
+            group.enter()
+            queue.async {
+                if index.isMultiple(of: 2) {
+                    self.notificationService.cancelAllNotifications()
+                } else {
+                    self.notificationService.cancelNotification(identifier: "id-\(index)")
+                }
+                group.leave()
+            }
+        }
+
+        group.notify(queue: .main) {
+            self.notificationService.getPendingNotifications { identifiers in
+                XCTAssertNotNil(identifiers)
+                expectation.fulfill()
+            }
+        }
+
+        wait(for: [expectation], timeout: 5.0)
+    }
 }

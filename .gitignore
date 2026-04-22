@@ -6,6 +6,7 @@
 
 # Build generated files
 build/
+MiniAppSDK/.build/
 
 # User-specific files
 *.swp

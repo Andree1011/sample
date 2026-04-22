@@ -12,6 +12,41 @@ The MiniApp SDK provides a complete set of middleware components that enable a h
 - Swift 5.5+
 - Xcode 13+
 
+## Platform Compatibility
+
+The package targets **iOS 12.0+**. Some Apple frameworks used by the SDK have their own API availability windows, so iOS 10+ APIs are guarded internally.
+
+| Component | Framework | API Availability |
+|-----------|-----------|------------------|
+| `NotificationManager` | UserNotifications | iOS 10.0+ |
+| `BiometricService` | LocalAuthentication | Base auth APIs: iOS 8.0+; biometric type detection (`biometryType`): iOS 11.0+ |
+| `IoTService` / `DeviceManager` | CoreBluetooth | iOS 5.0+ |
+| `NetworkService` | URLSession | iOS 7.0+ |
+| `CacheManager` | FileManager | iOS 2.0+ |
+| `PaymentService` | Foundation-based flow | iOS 12.0+ target compatible |
+
+Availability guard example:
+
+```swift
+if #available(iOS 10.0, *) {
+    UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { granted, _ in
+        DispatchQueue.main.async {
+            print("Notifications granted: \(granted)")
+        }
+    }
+}
+```
+
+> Note: The SDK implementation additionally serializes notification-center operations on a dedicated dispatch queue (`NotificationManager`) before returning callbacks on the main thread.
+
+## Required Skills for Mini App SDK Development
+
+- Swift fundamentals: protocols, error handling, async patterns, generics
+- iOS framework integration: Foundation, WebKit, UserNotifications, LocalAuthentication, CoreBluetooth
+- Concurrency: `DispatchQueue`, thread-safe state access, callback synchronization
+- SDK/API design: backward compatibility, clear public APIs, semantic versioning
+- Testing: XCTest, async tests, service-level isolation
+
 ## Installation
 
 ### Swift Package Manager

@@ -2,11 +2,13 @@ import Foundation
 import UserNotifications
 
 /// Low-level notification manager for scheduling and managing notifications.
+@available(iOS 10.0, macOS 10.14, *)
 public class NotificationManager: NSObject {
     
     // MARK: - Properties
     
     private let center = UNUserNotificationCenter.current()
+    private let queue = DispatchQueue(label: "com.miniapp.sdk.notifications")
     
     // MARK: - Initializer
     
@@ -20,8 +22,12 @@ public class NotificationManager: NSObject {
     /// Request notification authorization.
     /// - Parameter completion: Callback with granted status.
     public func requestAuthorization(completion: @escaping (Bool) -> Void) {
-        center.requestAuthorization(options: [.alert, .badge, .sound]) { granted, _ in
-            completion(granted)
+        queue.async { [center] in
+            center.requestAuthorization(options: [.alert, .badge, .sound]) { granted, _ in
+                DispatchQueue.main.async {
+                    completion(granted)
+                }
+            }
         }
     }
     
@@ -76,11 +82,15 @@ public class NotificationManager: NSObject {
             trigger: trigger
         )
         
-        center.add(request) { error in
-            if let error = error {
-                completion(.failure(.unknown(error.localizedDescription)))
-            } else {
-                completion(.success(()))
+        queue.async { [center] in
+            center.add(request) { error in
+                DispatchQueue.main.async {
+                    if let error = error {
+                        completion(.failure(.unknown(error.localizedDescription)))
+                    } else {
+                        completion(.success(()))
+                    }
+                }
             }
         }
     }
@@ -88,25 +98,35 @@ public class NotificationManager: NSObject {
     /// Cancel a scheduled notification.
     /// - Parameter identifier: The notification identifier to cancel.
     public func cancel(identifier: String) {
-        center.removePendingNotificationRequests(withIdentifiers: [identifier])
+        queue.async { [center] in
+            center.removePendingNotificationRequests(withIdentifiers: [identifier])
+        }
     }
     
     /// Cancel all pending notifications.
     public func cancelAll() {
-        center.removeAllPendingNotificationRequests()
+        queue.async { [center] in
+            center.removeAllPendingNotificationRequests()
+        }
     }
     
     /// Get all pending notification identifiers.
     /// - Parameter completion: Callback with list of identifiers.
     public func getPendingNotifications(completion: @escaping ([String]) -> Void) {
-        center.getPendingNotificationRequests { requests in
-            completion(requests.map { $0.identifier })
+        queue.async { [center] in
+            center.getPendingNotificationRequests { requests in
+                DispatchQueue.main.async {
+                    completion(requests.map { $0.identifier })
+                }
+            }
         }
     }
     
     /// Clear all delivered notifications from the notification center.
     public func clearDeliveredNotifications() {
-        center.removeAllDeliveredNotifications()
+        queue.async { [center] in
+            center.removeAllDeliveredNotifications()
+        }
     }
     
     /// Update the app badge number.
