@@ -103,14 +103,18 @@ public class PermissionManager: NSObject {
                 }
             }
         case .notifications:
-            if #available(iOS 10.0, macOS 10.14, *) {
+            if #available(iOS 10.0, *) {
                 UNUserNotificationCenter.current().requestAuthorization(
                     options: [.alert, .badge, .sound]
                 ) { granted, _ in
-                    completion(granted ? .authorized : .denied)
+                    DispatchQueue.main.async {
+                        completion(granted ? .authorized : .denied)
+                    }
                 }
             } else {
-                completion(.denied)
+                DispatchQueue.main.async {
+                    completion(.denied)
+                }
             }
         case .bluetooth:
             // Bluetooth permission is requested when CBCentralManager is initialized

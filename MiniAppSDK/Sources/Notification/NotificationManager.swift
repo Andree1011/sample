@@ -24,7 +24,9 @@ public class NotificationManager: NSObject {
     public func requestAuthorization(completion: @escaping (Bool) -> Void) {
         queue.async { [center] in
             center.requestAuthorization(options: [.alert, .badge, .sound]) { granted, _ in
-                completion(granted)
+                DispatchQueue.main.async {
+                    completion(granted)
+                }
             }
         }
     }
@@ -82,10 +84,12 @@ public class NotificationManager: NSObject {
         
         queue.async { [center] in
             center.add(request) { error in
-                if let error = error {
-                    completion(.failure(.unknown(error.localizedDescription)))
-                } else {
-                    completion(.success(()))
+                DispatchQueue.main.async {
+                    if let error = error {
+                        completion(.failure(.unknown(error.localizedDescription)))
+                    } else {
+                        completion(.success(()))
+                    }
                 }
             }
         }
@@ -111,7 +115,9 @@ public class NotificationManager: NSObject {
     public func getPendingNotifications(completion: @escaping ([String]) -> Void) {
         queue.async { [center] in
             center.getPendingNotificationRequests { requests in
-                completion(requests.map { $0.identifier })
+                DispatchQueue.main.async {
+                    completion(requests.map { $0.identifier })
+                }
             }
         }
     }

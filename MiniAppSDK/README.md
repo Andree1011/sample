@@ -19,7 +19,7 @@ The package targets **iOS 12.0+**. Some Apple frameworks used by the SDK have th
 | Component | Framework | API Availability |
 |-----------|-----------|------------------|
 | `NotificationManager` | UserNotifications | iOS 10.0+ |
-| `BiometricService` | LocalAuthentication | iOS 8.0+ (`biometryType`: iOS 11.0+) |
+| `BiometricService` | LocalAuthentication | Base auth APIs: iOS 8.0+; biometric type detection (`biometryType`): iOS 11.0+ |
 | `IoTService` / `DeviceManager` | CoreBluetooth | iOS 5.0+ |
 | `NetworkService` | URLSession | iOS 7.0+ |
 | `CacheManager` | FileManager | iOS 2.0+ |
@@ -30,10 +30,14 @@ Availability guard example:
 ```swift
 if #available(iOS 10.0, *) {
     UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { granted, _ in
-        print("Notifications granted: \(granted)")
+        DispatchQueue.main.async {
+            print("Notifications granted: \(granted)")
+        }
     }
 }
 ```
+
+> Note: The SDK implementation additionally serializes notification-center operations on a dedicated dispatch queue (`NotificationManager`) before returning callbacks on the main thread.
 
 ## Required Skills for Mini App SDK Development
 
