@@ -1,0 +1,12 @@
+/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/AuthenticationServiceTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/TokenManagerTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/BridgeTests/BridgeTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/CacheTests/CacheManagerTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppConfigTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppManagerTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/IoTTests/IoTServiceTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/LoaderTests/MiniAppLoaderTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/NetworkTests/NetworkServiceTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/NotificationTests/NotificationServiceTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/PaymentTests/PaymentServiceTests.swift
+/home/runner/work/sample/sample/MiniAppSDK/Tests/SecurityTests/SecurityTests.swift
