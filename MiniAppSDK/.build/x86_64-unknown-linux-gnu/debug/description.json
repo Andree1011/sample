@@ -1,0 +1,1556 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.xctest",
+      "packagePath" : "/home/runner/work/sample/sample/MiniAppSDK",
+      "productName" : "MiniAppSDKPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "MiniAppSDKPackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MiniAppSDK-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/sources",
+      "importPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/AuthenticationService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/KeychainManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/TokenManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/User.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/BridgeMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/MethodInvoker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/MiniAppBridge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/CacheManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/CachePolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/StorageManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/Device.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/DeviceManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/IoTService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/AppLifecycleManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/AppManifest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/MiniAppLoader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/HTTPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/NetworkError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/NetworkService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/RequestInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/LocalNotification.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/NotificationManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/NotificationService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/PaymentService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/Transaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/TransactionManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/BiometricService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/Permission.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/PermissionManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/SDKPermissionLayer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MiniAppSDK",
+      "moduleOutputPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDK.swiftmodule",
+      "objects" : [
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/AuthenticationService.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/KeychainManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/TokenManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/User.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/BridgeMessage.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MethodInvoker.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppBridge.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/CacheManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/CachePolicy.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/StorageManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppConfig.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppError.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/Device.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/DeviceManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/IoTService.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/AppLifecycleManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/AppManifest.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppLoader.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/HTTPClient.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NetworkError.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NetworkService.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/RequestInterceptor.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/LocalNotification.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NotificationManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NotificationService.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/PaymentService.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/Transaction.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/TransactionManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/BiometricService.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/Permission.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/PermissionManager.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/SDKPermissionLayer.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/include/MiniAppSDK-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/AuthenticationService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/KeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/TokenManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/User.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/BridgeMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MethodInvoker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppBridge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/CacheManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/CachePolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/StorageManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppConfig.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/Device.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/DeviceManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/IoTService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/AppLifecycleManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/AppManifest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppLoader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/HTTPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NetworkError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NetworkService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/RequestInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/LocalNotification.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NotificationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NotificationService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/PaymentService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/Transaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/TransactionManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/BiometricService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/Permission.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/PermissionManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/SDKPermissionLayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDK.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/AuthenticationService.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/KeychainManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/TokenManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/User.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/BridgeMessage.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/MethodInvoker.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/MiniAppBridge.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/CacheManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/CachePolicy.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/StorageManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppConfig.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppError.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/Device.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/DeviceManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/IoTService.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/AppLifecycleManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/AppManifest.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/MiniAppLoader.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/HTTPClient.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/NetworkError.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/NetworkService.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/RequestInterceptor.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/LocalNotification.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/NotificationManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/NotificationService.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/PaymentService.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/Transaction.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/TransactionManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/BiometricService.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/Permission.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/PermissionManager.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/SDKPermissionLayer.swift"
+      ],
+      "tempsPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MiniAppSDKPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/sources",
+      "importPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/MiniAppSDKTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MiniAppSDKPackageDiscoveredTests",
+      "moduleOutputPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKPackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/MiniAppSDKTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/include/MiniAppSDKPackageDiscoveredTests-Swift.h",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/MiniAppSDKTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/MiniAppSDKTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/all-discovered-tests.swift"
+      ],
+      "tempsPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MiniAppSDKPackageTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/sources",
+      "importPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKPackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MiniAppSDKPackageTests",
+      "moduleOutputPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKPackageTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/include/MiniAppSDKPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MiniAppSDKTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/sources",
+      "importPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/AuthenticationServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/TokenManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/BridgeTests/BridgeTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/CacheTests/CacheManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppConfigTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/IoTTests/IoTServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/LoaderTests/MiniAppLoaderTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/NetworkTests/NetworkServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/NotificationTests/NotificationServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/PaymentTests/PaymentServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/SecurityTests/SecurityTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDK.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MiniAppSDKTests",
+      "moduleOutputPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/AuthenticationServiceTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/TokenManagerTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/BridgeTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/CacheManagerTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppConfigTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppManagerTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/IoTServiceTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppLoaderTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/NetworkServiceTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/NotificationServiceTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/PaymentServiceTests.swift.o",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/SecurityTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/AuthenticationServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/TokenManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/BridgeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/CacheManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppConfigTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/IoTServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppLoaderTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/NetworkServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/NotificationServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/PaymentServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/SecurityTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/AuthenticationServiceTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/TokenManagerTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/BridgeTests/BridgeTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/CacheTests/CacheManagerTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppConfigTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppManagerTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/IoTTests/IoTServiceTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/LoaderTests/MiniAppLoaderTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/NetworkTests/NetworkServiceTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/NotificationTests/NotificationServiceTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/PaymentTests/PaymentServiceTests.swift",
+        "/home/runner/work/sample/sample/MiniAppSDK/Tests/SecurityTests/SecurityTests.swift"
+      ],
+      "tempsPath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MiniAppSDK" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "MiniAppSDK",
+      "-c",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/AuthenticationService.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/KeychainManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/TokenManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/User.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/BridgeMessage.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/MethodInvoker.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/MiniAppBridge.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/CacheManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/CachePolicy.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/StorageManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppConfig.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppError.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/Device.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/DeviceManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/IoTService.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/AppLifecycleManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/AppManifest.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/MiniAppLoader.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/HTTPClient.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/NetworkError.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/NetworkService.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/RequestInterceptor.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/LocalNotification.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/NotificationManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/NotificationService.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/PaymentService.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/Transaction.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/TransactionManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/BiometricService.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/Permission.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/PermissionManager.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/SDKPermissionLayer.swift",
+      "-I",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/include/MiniAppSDK-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "MiniAppSDKPackageDiscoveredTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "MiniAppSDKPackageDiscoveredTests",
+      "-c",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/MiniAppSDKTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/all-discovered-tests.swift",
+      "-I",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/include/MiniAppSDKPackageDiscoveredTests-Swift.h",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "MiniAppSDKPackageTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "MiniAppSDKPackageTests",
+      "-c",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.derived/runner.swift",
+      "-I",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/include/MiniAppSDKPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "MiniAppSDKTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "MiniAppSDKTests",
+      "-c",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/AuthenticationServiceTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/TokenManagerTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/BridgeTests/BridgeTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/CacheTests/CacheManagerTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppConfigTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppManagerTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/IoTTests/IoTServiceTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/LoaderTests/MiniAppLoaderTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/NetworkTests/NetworkServiceTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/NotificationTests/NotificationServiceTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/PaymentTests/PaymentServiceTests.swift",
+      "/home/runner/work/sample/sample/MiniAppSDK/Tests/SecurityTests/SecurityTests.swift",
+      "-I",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MiniAppSDK" : [
+
+    ],
+    "MiniAppSDKPackageDiscoveredTests" : [
+      "MiniAppSDKTests",
+      "MiniAppSDK"
+    ],
+    "MiniAppSDKPackageTests" : [
+      "MiniAppSDKPackageDiscoveredTests",
+      "MiniAppSDKTests",
+      "MiniAppSDK"
+    ],
+    "MiniAppSDKTests" : [
+      "MiniAppSDK"
+    ]
+  },
+  "testDiscoveryCommands" : {
+    "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/AuthenticationServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/BridgeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/CacheManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/IoTServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppConfigTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppLoaderTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/NetworkServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/NotificationServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/PaymentServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/SecurityTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/TokenManagerTests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/MiniAppSDKTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ]
+    }
+  },
+  "testEntryPointCommands" : {
+    "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.derived/runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/Modules/MiniAppSDKPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/AuthenticationService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/KeychainManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/TokenManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Auth/User.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/BridgeMessage.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/MethodInvoker.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Bridge/MiniAppBridge.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/CacheManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/CachePolicy.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Cache/StorageManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppConfig.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Core/MiniAppManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/Device.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/DeviceManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/IoT/IoTService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/AppLifecycleManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/AppManifest.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Loader/MiniAppLoader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/HTTPClient.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/NetworkError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/NetworkService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Network/RequestInterceptor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/LocalNotification.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/NotificationManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Notification/NotificationService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/PaymentService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/Transaction.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Payment/TransactionManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/BiometricService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/Permission.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/PermissionManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Sources/Security/SDKPermissionLayer.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/sources"
+    },
+    "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/MiniAppSDKTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/sources"
+    },
+    "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/sources"
+    },
+    "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/AppLifecycleManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/AppManifest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/AuthenticationService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/BiometricService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/BridgeMessage.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/CacheManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/CachePolicy.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/Device.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/DeviceManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/HTTPClient.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/IoTService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/KeychainManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/LocalNotification.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MethodInvoker.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppBridge.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppConfig.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppLoader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/MiniAppSDK.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NetworkError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NetworkService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NotificationManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/NotificationService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/PaymentService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/Permission.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/PermissionManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/RequestInterceptor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/SDKPermissionLayer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/StorageManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/TokenManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/Transaction.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/TransactionManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDK.build/User.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/MiniAppSDKPackageDiscoveredTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/MiniAppSDKTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/MiniAppSDKPackageTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/AuthenticationServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/BridgeTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/CacheManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/IoTServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppConfigTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppLoaderTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppManagerTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/MiniAppSDKTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/NetworkServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/NotificationServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/PaymentServiceTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/SecurityTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/TokenManagerTests.swift.o"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKPackageTests.product/Objects.LinkFileList"
+    },
+    "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/AuthenticationServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/AuthTests/TokenManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/BridgeTests/BridgeTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/CacheTests/CacheManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppConfigTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/CoreTests/MiniAppManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/IoTTests/IoTServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/LoaderTests/MiniAppLoaderTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/NetworkTests/NetworkServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/NotificationTests/NotificationServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/PaymentTests/PaymentServiceTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/sample/sample/MiniAppSDK/Tests/SecurityTests/SecurityTests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/MiniAppSDKTests.build/sources"
+    },
+    "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/usr/share/swift/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/sample/sample/MiniAppSDK/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+    }
+  }
+}
